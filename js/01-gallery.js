@@ -45,7 +45,7 @@ function onShowImg(event) {
 
   function onEscClosed(event) {
     if (event.code === "Escape") {
-      instance.close();
+      lightBox.close();
 
       console.log(event);
     }

@@ -11,7 +11,6 @@ const createMarkUp = galleryItems
   })
   .join("");
 gallery.insertAdjacentHTML("beforeend", createMarkUp);
-console.log(createMarkUp);
 
 var lightBox = new SimpleLightbox(".gallery a", {
   captionsData: `alt`,
